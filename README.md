@@ -4,17 +4,15 @@
 [![NPM downloads](https://img.shields.io/npm/dm/eslint-plugin-bud.svg?style=flat)](https://npmjs.org/package/eslint-plugin-bud)
 
 # 工程结构
-
-## __tests__ [测试文件]
-## .vscode [断点调试配置]
-## bin [执行脚本]
-## lib [由 tools 根据 rules和presets 动态生成]
-## presets [eslint对应不同规则的基本配置]
-## rules [规则统计]
-## tools [处理工具]
-
-### main.js 入口文件
-
+`
+  -__tests__ [测试文件]
+  -.vscode [断点调试配置]
+  -bin [执行脚本]
+  -lib [由 tools 根据 rules和presets 动态生成]
+  -presets [eslint对应不同规则的基本配置]
+  -rules [规则统计]
+  -tools [处理工具]
+`
 - rules
   - 满足(/*eslint ...*/)或者(/*#eslint ...*/)的计入规则.
   - 符合规则的下一行若满足(// -> ...)格式，...的值会更新规则对应的value.
@@ -65,7 +63,8 @@
 
 # 使用方法
 
-## 安装. npm i eslint-plugin-bud -D 或 yarn add eslint-plugin-bud -D
+## 安装.
+  - npm i eslint-plugin-bud -D 或 yarn add eslint-plugin-bud -D
 ## 使用. 
   - 手动配置. 修改eslint配置项，添加extends: ["plugin:bud/..."]  (...可选base/import/jsx-a11y/react/vue)
   - bin脚本生成. ./node_modules/eslint-plugin-bud/bin/bud.js init/create [options]
