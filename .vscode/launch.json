@@ -1,0 +1,39 @@
+{
+  // 使用 IntelliSense 了解相关属性。 
+  // 悬停以查看现有属性的描述。
+  // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    // bin断点配置
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program",
+      "args": [
+        "create",
+        "--preset",
+        "vue"
+      ],
+      "program": "${workspaceFolder}/bin/bud.js"
+    },
+    // 规则断点配置
+    // {
+    //   "type": "node",
+    //   "request": "launch",
+    //   "name": "Launch Program",
+    //   "program": "${workspaceFolder}/main.js"
+    // },
+    // jest断点配置
+    // {
+    //   "type": "node",
+    //   "request": "launch",
+    //   "name": "Jest Tests",
+    //   "program": "${workspaceFolder}/node_modules/jest/bin/jest",
+    //   "args": [
+    //     "--colors",
+    //     "--runInBand"
+    //   ],
+    //   "internalConsoleOptions": "openOnSessionStart"
+    // }
+  ]
+}

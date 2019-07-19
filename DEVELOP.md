@@ -1,8 +1,3 @@
-# eslint-plugin-bud
-
-[![NPM version](https://img.shields.io/npm/v/eslint-plugin-bud.svg?style=flat)](https://npmjs.org/package/eslint-plugin-bud)
-[![NPM downloads](https://img.shields.io/npm/dm/eslint-plugin-bud.svg?style=flat)](https://npmjs.org/package/eslint-plugin-bud)
-
 # 工程结构
 
 ## __tests__ [测试文件]

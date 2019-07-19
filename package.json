@@ -1,0 +1,63 @@
+{
+  "name": "eslint-plugin-bud",
+  "version": "0.1.0",
+  "description": "Recommaned Eslint Rules Restructured",
+  "bin": {
+    "bud": "bin/bud.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node ./main",
+    "update": "npm run build",
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "files": [
+    "lib",
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "cli",
+    "eslint",
+    "eslint-plugin",
+    "eslint-config",
+    "vue",
+    "vuejs",
+    "react",
+    "reactjs",
+    "rules"
+  ],
+  "author": "",
+  "contributors": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samAroundGitHub/eslint-plugin-bud"
+  },
+  "bugs": {
+    "url": "https://github.com/samAroundGitHub/eslint-plugin-bud/issues",
+    "email": "hui379190004@icloud.com"
+  },
+  "engines": {
+    "node": ">=8.5"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "didyoumean": "^1.2.1",
+    "inquirer": "^6.5.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.6"
+  },
+  "peerDependencies": {
+    "eslint": "^5.0.0 || ^6.0.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
